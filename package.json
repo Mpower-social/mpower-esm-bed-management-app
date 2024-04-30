@@ -19,7 +19,8 @@
     "coverage": "yarn test --coverage",
     "prepare": "husky install",
     "extract-translations": "i18next 'src/**/*.component.tsx' --config ./i18next-parser.config.js",
-    "test-e2e": "playwright test"
+    "test-e2e": "playwright test",
+    "app": "yarn start --backend https://openmrs-o3.mpower-social.com"
   },
   "husky": {
     "hooks": {
